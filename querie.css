@@ -1,0 +1,87 @@
+@media screen and (min-width: 500px) {
+  .buyer-image {
+    left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* -- Heading  --  */
+
+  header {
+    margin: 2rem 0 0 0;
+    text-align: start;
+  }
+
+  h1 {
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .subheader {
+    font-size: 1rem;
+  }
+
+  /* -- Star Reviews  --  */
+
+  .five-star-review {
+    margin-top: 2rem;
+  }
+
+  .star-review {
+    min-width: 28rem;
+  }
+
+  /* -- Buyer Reviews  --  */
+
+  .buyer-review {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  /* -- Star Reviews  --  */
+  .five-star-review {
+    min-width: 40rem;
+  }
+
+  .star-review:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .star-review:nth-child(3) {
+    margin-right: 0;
+  }
+
+  /* -- Buyer Reviews  --  */
+
+  .buyer-review {
+    min-height: 20rem;
+    flex-wrap: wrap;
+  }
+
+  .buyer-review div {
+    margin-left: 0.5rem;
+    max-width: 25rem;
+  }
+
+  .buyer-review div:nth-child(1) {
+    align-self: flex-start;
+  }
+
+  .buyer-review div:nth-child(3) {
+    align-self: flex-end;
+  }
+
+  .buyer-image {
+    left: 1.25rem;
+  }
+}
